@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo header__logo">
+        <img src="./assets/images/logo.svg" alt="" class="logo__img" />
+      </a>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#">Home</a></li>
+          <li class="nav__item"><a href="#">New</a></li>
+          <li class="nav__item"><a href="#">Popular</a></li>
+          <li class="nav__item"><a href="#">Trending</a></li>
+          <li class="nav__item"><a href="#">Categories</a></li>
+        </ul>
+        <div class="hamburger nav__hamburger">
+          <input
+            type="radio"
+            name="hamburger"
+            id="hamburger_close"
+            class="hamburger__toggle"
+            checked />
+          <img
+            src="./assets/images/icon-menu-close.svg"
+            alt=""
+            id=""
+            class="hamburger__icon nav__icon" />
+        </div>
+      </nav>
+      <div class="hamburger header__hamburger">
+        <input
+          type="radio"
+          name="hamburger"
+          id="hamburger_open"
+          class="hamburger__toggle" />
+        <img
+          src="./assets/images/icon-menu.svg"
+          alt=""
+          class="hamburger__icon header__icon" />
+      </div>
+      <div id="navWrapper" aria-hidden="true" tabindex="0"></div>
+    </header>
+  </body>
+</html>
