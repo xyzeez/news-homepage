@@ -299,6 +299,7 @@ main {
 
 .recent__heading {
   font-size: 2.5rem;
+  font-weight: var(--bold);
   color: var(--soft-orange);
   margin-bottom: 1rem;
 }
